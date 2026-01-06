@@ -1,2 +1,2 @@
-# automotive-sales-funnel-analytics
-Power BI dashboard analyzing automotive marketing campaigns, attribution sensitivity, and sales funnel performance.
+# Automotive Sales Funnel Analytics
+A Power BI analytics project investigating marketing campaign performance across the automotive sales funnel, from lead generation to final purchase. 
