@@ -44,17 +44,17 @@ The dashboard is organized into five pages, each focusing on a different aspect 
 ---
 ### Key Insights
 
-* Most sales do not occur immediately after lead creation. While lead volumes decline over time, a meaningful share of purchases happens in later months, which explains why shorter attribution windows capture fewer sales. Despite regional differences in volume, lead-to-sale conversion rates remain relatively stable across provinces, suggesting a broadly consistent sales funnel nationwide. 
+* Most sales do not occur immediately after lead creation. While lead volumes decline over time, a meaningful share of purchases happens in later months, explaining why shorter attribution windows capture fewer sales; despite regional volume differences, lead-to-sale conversion rates remain relatively stable across provinces.
 
-* Campaign performance varies significantly depending on the metric used. While Search Ads deliver the largest lead-to-sales and revenue, SMS shows the highest ROI primarily due to its very low CPA despite generating lower revenue, showing that high ROI alone does not necessarily indicate the strongest overall performance. 
+* Campaign performance varies depending on the metric used. While Search Ads deliver the highest lead-to-sales and revenue, SMS shows the highest ROI due to its very low CPA despite lower total revenue, demonstrating that high ROI alone does not necessarily indicate the strongest overall performance.
 
-* Not all sales can be directly attributed to campaigns, with a small number of sales occurring without a campaign association. This highlights the importance of accounting for unassigned conversions when evaluating campaign-level performance. 
+* Not all sales can be directly attributed to campaigns, with a small number occurring without a campaign association. This highlights the importance of accounting for unassigned conversions when evaluating campaign-level performance.
 
-* Geographic performance varies substantially, with high-volume dealerships driving most sales. However, average sales price remains relatively stable across locations, while smaller dealerships occasionally show the highest and lowest averages due to low transaction counts. Campaign selection did not generally affect dealership performance, suggesting location plays a stronger role than campaign.
+* Geographic performance varies substantially, with high-volume dealerships driving most sales. Average sales price remains relatively stable across locations, while smaller dealerships occasionally show the highest and lowest averages due to low transaction counts, and campaign selection did not meaningfully alter dealership performance.
 
-* Cohort analysis shows that most lead-to-customer conversions occur within the first six months, with times varying across cohorts. Some conversions happen in the first two months while others take up to five. Once a lead converts into a customer, purchases usually follow quickly, most often within the first month.
+* Cohort analysis shows that most lead-to-customer conversions occur within the first six months, with timing varying across cohorts. Once a lead converts into a customer, purchases typically follow quickly, most often within the first month.
 
-* Statistical analysis adds depth beyond descriptive metrics. Z-score analysis confirms Search Ads as a clear overperformer and Email as a consistent underperformer. The low R² value from the regression model suggests that campaign spend alone explains only a small portion of revenue variation, indicating that additional factors beyond campaigns influence sales outcomes.
+* Statistical analysis adds depth beyond descriptive metrics. Z-scores confirm Search Ads as a clear overperformer and Email as a consistent underperformer, while the low R² value indicates that campaign spend alone explains only a small portion of revenue variation, suggesting additional factors influence sales outcomes.
 
 ---
 ## Dashboard & Schema Screenshots
@@ -93,6 +93,13 @@ The dashboard is organized into five pages, each focusing on a different aspect 
 
 <p align="center">
 <img src="snowflake_schema.png" width="775">
+</p>
+
+---
+<p align="center">
+<strong> 🇩🇪 Deutsche Version verfügbar:</strong>
+   <a 
+href="https://github.com/jonnytodorov/automobil-verkaufsfunnel-analyse">Hier klicken</a>
 </p>
 
 ---
