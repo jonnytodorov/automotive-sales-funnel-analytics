@@ -98,6 +98,6 @@ The dashboard is organized into five pages, each focusing on a different aspect 
 ---
 <p align="center">
   <em>Automotive Sales Funnel & Campaign Anaytics Dashboard</em><br>
-<strong>Jonathan Todorov, MA</strong> Business Analytics Portfolio 2026 </p>
+<strong>Jonathan Todorov, MA</strong> Business Analytics Portfolio 2026 EN</p>
 
 
