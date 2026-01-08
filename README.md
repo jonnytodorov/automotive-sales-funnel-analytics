@@ -22,12 +22,10 @@ The goal of this project is to assist data-driven marketing budget decisions by 
 <b>Data:</b>
 * Synthetic datasets in CSV format simulating the full customer journey from initial lead to final purchase. 
 * Fact tables include leads, test drives, and sales, while dimension tables consist of campaigns, customers, and dealerships. Table sizes range from as few as 8 rows (campaigns) to as many as 8000 (leads).
-* A snowflake schema was used to model relationships accurately for proper filtering and attribution logic in Power BI.
 
 <b>Tools:</b>
 * PostgreSQL was used for data cleaning, date fixing, and statistical preparation.
 * Power BI was used for data shaping and dashboard development, with the help of Power Query (M) for data transformation, and DAX for KPI calculations and performance analysis.
-* Statistical measures implemented include sensitivity analysis, two-sample t-testing, linear regression, and z-scores based on standard deviations.
 
 ---
 ## Dashboard Overview
@@ -41,7 +39,7 @@ The dashboard is organized into five pages, each focusing on a different aspect 
 
 <b>4. Customer Cohorts:</b> Two cohort heatmaps illustrating how leads convert into customers and how quickly purchases occur after initial engagement. Results are shown by cohort month, using a six-month window, which aligns with the typical timeframe in which a lead influences a purchase.
 
-<b>5. Advanced analytics:</b> Statistical insights including attribution sensitivity analysis, linear regression results (R2), campaign performance outliers identified using z-scores, and a two-sample t-test comparing commercial and private customers. 
+<b>5. Advanced analytics:</b> Statistical insights including attribution sensitivity analysis, linear regression results (R²), campaign performance outliers identified using z-scores, and a two-sample t-test comparing commercial and private customers. 
 
 ---
 ### Key Insights
